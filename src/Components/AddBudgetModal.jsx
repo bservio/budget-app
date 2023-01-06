@@ -22,7 +22,7 @@ export default function AddBudgetModal({ show, handleClose }) {
 	return (
 		<Modal show={show} onHide={handleClose}>
 			<Form onSubmit={handleSubmit}>
-				<Modal.Header>New Budget</Modal.Header>
+				<Modal.Header closeButton>New Budget</Modal.Header>
 				<Modal.Body>
 					<Form.Group className="mb-3" controlId="budgetName">
 						<Form.Label>Name</Form.Label>
